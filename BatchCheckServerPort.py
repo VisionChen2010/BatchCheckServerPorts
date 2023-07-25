@@ -27,8 +27,8 @@ def test_port(hostname, port):
 
 
 get_local_ip()
-for ip in ["172.25.200.71","172.25.200.72","172.25.200.143"]:
-    for Port in [32230, 32231, 32227, 32228]:
+for ip in ["172.1.1.21","172.1.1.22","172.1.1.23"]:
+    for Port in [220, 221, 222, 223，224，225]:
        test_port(ip, Port)
 
 
